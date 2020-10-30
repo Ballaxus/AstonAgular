@@ -1,0 +1,25 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "nom":"grizzly",
+      "prenom":"mini",
+      "race":"ours",
+      "vivant":true
+    },
+    {
+      "id": 2,
+      "nom":"miaousse",
+      "prenom":"miaous",
+      "race":"batar",
+      "vivant":false
+    },
+    {
+      "id": 3,
+      "nom":"minet",
+      "prenom":"gros",
+      "race":"sansrace",
+      "vivant":true
+    }
+  ]
+}
