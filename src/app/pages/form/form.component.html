@@ -1,0 +1,19 @@
+<form [formGroup]="catForm" (ngSubmit)="onSubmit()">
+  <label>
+    nom:
+    <input type="text" formControlName="nom">
+  </label>
+  <label>
+    age:
+    <input type="number" formControlName="age">
+  </label>
+  <label>
+    race:
+    <input type="text" formControlName="race">
+  </label>
+  <label>
+    vivant:
+    <input type="checkbox" formControlName="vivant">
+  </label>
+  <button type="submit">créer un chat</button>
+</form>
